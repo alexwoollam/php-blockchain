@@ -9,10 +9,10 @@ class Blockchain{
 
     public function __construct(){
         
-        new Ledger;
+        $ledger = new Ledger;
 
-        $this->current_chain_length = (new Ledger)->chain_size();
-        $this->previous_hash = (new Ledger)->last_block();
+        $this->current_chain_length = $ledger->chain_size();
+        $this->previous_hash = $ledger->last_block();
 
         $this->new_block();
     }
