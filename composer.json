@@ -1,0 +1,17 @@
+{
+    "name": "alex/test-blockchain",
+    "type": "project",
+    "license": "na",
+    "authors": [
+        {
+            "name": "Alex Woollam",
+            "email": "alex.woollam@proagrica.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Blockchain\\": "./"
+        }
+    },
+    "require": {}
+}
